@@ -1,49 +1,63 @@
 html {font-family: 'Merienda', cursive; 'Fredoka One', cursive; 'Roboto', sans-serif; 'Open Sans', sans-serif;  background-image: linear-gradient(to left, goldenrod, gold)}
 
-#container {margin:0}
-#pageone {width:100%; height:auto; background-image: linear-gradient(to bottom right, darkviolet, orchid)}
+#container {margin:0vw}
+#pageone {height:100%; background-image: linear-gradient(to bottom right, darkviolet, orchid)}
 
-img.left {float:left;width: 24vw;}
+figure.right {float:right; margin-left:.75vw}
+figure.left {float:left; margin-right:.75vw}
+figure {display:inline}
+img.left {float:left;width: 30vw; padding:1.5vw; height:auto}
 
-img.right {float:right;width: 24.25vw}
+img.right {float:right;width: 30vw;padding:1.5vw; height:auto}
 
-h1 {text-align:center;font-size: 1.5vw;}
+h1 {text-align:center;font-size: 2.5vw; padding-top:1.5vw}
+h2 {text-align:center;font-size: 1.75vw; padding-top:.5vw}
 
 img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 5px yellow;}
+img.introimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 5px yellow;}
 
-li {transition: transform .2s; border:solid 2px yellow; border-radius:50px; width:33vw; height:auto; overflow-wrap:normal; background-image: linear-gradient(to left, goldenrod, gold); opacity: .7;}
+ul {font-family:serif; margin:auto; font-size: 2vw; list-style:none; width:30vw; height:auto; padding-bottom:2vw; padding-top:2vw}
 
-ul {font-family:serif; margin:auto; font-size: 2vw; list-style:none; width:33vw; height:auto; padding-bottom:2vw; padding-top:2vw}
+
+li {transition: transform .2s; border:solid 2px yellow; border-radius:50px; width:30vw; height:auto; overflow-wrap:normal; background-image: linear-gradient(to left, gold, goldenrod); opacity: .7;}
+
 
 span.linktext {height:auto; position:relative; bottom:.5vw}
 
 li:hover {transform: scale(1.02);}
 
-#pagetwo {height: auto; background-image: linear-gradient(to right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw; overflow-wrap:normal; padding-bottom: 10vw;}
+#pagetwo {min-height: 1080px; background-image: linear-gradient(to right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw; padding-bottom: 10vw;}
 
 p.intro {padding: 2vw; padding-top:2vw}
 
-#pagethree {height: auto; background-image:linear-gradient(to left, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw;}
+#pagethree {min-height: 1080px; background-image:linear-gradient(to left, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw;}
 
-p.piano {padding: 2vw; padding-top:2vw}
+p.piano {padding: .1vw}
 
-#pagefour {height: auto; background-image:linear-gradient(to left, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
-
-
+#pagefour {min-height: 1080px; background-image:linear-gradient(to left, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
 
 
-#pagefive {height: auto; background-image:linear-gradient(to bottom right, orchid, darkviolet); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
+p.wind {padding: .1vw}
+
+
+#pagefive {min-height: 1080px; background-image:linear-gradient(to bottom right, orchid, darkviolet); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
 
 
 
+p.guitar {padding: .1vw}
 
-#pagesix {height: auto; background-image:linear-gradient(to bottom right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
+
+#pagesix {min-height: 1080px; background-image:linear-gradient(to bottom right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
 
 
+
+p.ccv {padding: .1vw}
  
-#pageseven {height: auto; background-image:linear-gradient(to bottom right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
+#pageseven {min-height: 1080px; background-image:linear-gradient(to bottom right, darkviolet, orchid); margin-top:0; border-top: 2px solid yellow; font-size: 1.35vw}
 
 
+
+p.roberts {padding: .1vw}
 
 
 a.menulink {style:none;}
@@ -57,6 +71,10 @@ a.introlink {display:inline-block; style:none; border: solid 1px yellow; border-
 a.introlink:link {color: darkviolet; text-decoration:none}
 a.introlink:visited {color: darkviolet}
 a.introlink:hover {transform: scale(1.02);}
+
+
+
+
 
 
 
