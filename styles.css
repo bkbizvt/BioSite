@@ -21,7 +21,7 @@ ul {font-family:serif; font-size: 2vw; list-style:none; padding:5px; height:auto
 li {transition: transform .2s; border:solid 2px yellow; border-radius: 50px; background-image: linear-gradient(to left, gold, goldenrod); opacity: .7;}
 img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 3px yellow;}
 .mtns { width: 100%; }
-@media screen and (max-width: 600px) {ul {font-size: 18px} h1 {font-size:20px}
+@media screen and (max-width: 600px) {ul {font-size: 18px} h1 {font-size:20px}}
 
 
 
