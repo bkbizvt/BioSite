@@ -1,10 +1,12 @@
 /*entire page*/
 html {font-family: 'Merienda', cursive; 'Fredoka One', cursive; 'Roboto', sans-serif; 'Open Sans', sans-serif;}
 figcaption {font-size: .75vw}
+@media screen and (max-width: 600px) {figcaption {font-size: 12px}}
 
 /*body*/
 body {margin:1px; background-image:linear-gradient(to bottom right, darkviolet, orchid)}
 h2 {text-align: center; font-size: 1.75vw; background-image:linear-gradient(to left, gold, goldenrod); opacity: .7;}
+@media screen and (max-width: 600px) {h2 {font-size: 18px}}
 
 /* navigation page */
 .columnnav {float: left; width: 33.33%; height: auto;}
@@ -19,42 +21,59 @@ ul {font-family:serif; font-size: 2vw; list-style:none; padding:5px; height:auto
 li {transition: transform .2s; border:solid 2px yellow; border-radius: 50px; background-image: linear-gradient(to left, gold, goldenrod); opacity: .7;}
 img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 3px yellow;}
 .mtns { width: 100%; }
+@media screen and (max-width: 600px) {ul {font-size: 18px} h1 {font-size:20px}
+
+
 
 /*articles*/
 .left {float: left; width: 66.66%; height: auto}
 .right {float: right; width: 66.66%; height: auto}
 .leftthird {float: left; width: 33.33%; height: auto}
 .rightthird {float: right; width: 33.33%; height: auto}
-@media screen and (max-width: 600px) {.right {width: 100%;} .left {width: 100%;} .leftthird {width: 100%;} .rightthird {width: 100%;}}
+
+@media screen and (max-width: 600px) {.right {width: 100%;} 
+.left {width: 100%;} 
+.leftthird {width: 100%;} 
+.rightthird {width: 100%;}} 
 
 /* intro page */
 #intro {clear:both; background-image:linear-gradient(to bottom right, darkviolet, orchid); }
 .introp {font-size: 1.25vw; text-align:center; padding: 1vw}
+@media screen and (max-width: 600px) {.introp {font-size: 16px}}
+
 
 /*piano page */
 .imgthree {width: 100%}
 #piano {clear:both;}
-.pianop {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} }
+.pianop {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+@media screen and (max-width: 600px) {.pianop {font-size: 16px}}
+
 
 /*wind page*/
 .imgfour {width:100%}
 #wind {clear:both;}
-.windp {background-image:linear-gradient(to bottom left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} }
-
+.windp {background-image:linear-gradient(to bottom left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+@media screen and (max-width: 600px) {.windp {font-size: 16px}}
 
 /*guitar page*/
 .imgfive {width:100%}
 #guitar {clear:both;}
-.guitarp {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} }
+.guitarp {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+@media screen and (max-width: 600px) {.guitarp {font-size: 16px}}
+
 
 /*ccv page*/
 .imgsix {width:100%}
 #ccv {clear:both;}
-.ccvp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} }
+.ccvp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+@media screen and (max-width: 600px) {.ccvp {font-size: 16px}}
 
 .imgseven {width: 100%}
 #roberts {clear:both;}
-.robertsp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} }
+.robertsp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+@media screen and (max-width: 600px) {.robertsp {font-size: 16px}}
+
+
 
 
 
