@@ -13,6 +13,7 @@ h2 {text-align: center; font-size: 1.75vw; background-image:linear-gradient(to l
 @media screen and (max-width: 600px) {.columnnav {width: 100%;}}
 /*images*/
 .imgnav {width: 100%}
+.audiop {text-align: center; font-size: 1.25vw;}
 audio {align: center}
 
 /*menu*/
@@ -20,8 +21,11 @@ h1 {text-align: center; font-size: 2vw}
 ul {font-family:serif; font-size: 2vw; list-style:none; padding:5px; height:auto}
 li {transition: transform .2s; border:solid 2px yellow; border-radius: 50px; background-image: linear-gradient(to left, gold, goldenrod); opacity: .7;}
 img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 3px yellow;}
-.mtns { width: 100%; }
+.mtns { width: 100%;}
 @media screen and (max-width: 600px) {ul {font-size: 18px} h1 {font-size:20px}}
+li:hover {transform: scale(1.02);}
+audio {width: 100%;}
+
 
 
 
@@ -37,7 +41,7 @@ img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 3px yell
 .rightthird {width: 100%;}} 
 
 /* intro page */
-#intro {clear:both; background-image:linear-gradient(to bottom right, darkviolet, orchid); }
+#intro {clear:both; background-image:linear-gradient(to bottom right, orchid, plum); }
 .introp {font-size: 1.25vw; text-align:center; padding: 1vw}
 @media screen and (max-width: 600px) {.introp {font-size: 16px}}
 
@@ -45,43 +49,44 @@ img.ccvimg {width:2.25vw;height:auto;border-radius:2.25vw;border: solid 3px yell
 /*piano page */
 .imgthree {width: 100%}
 #piano {clear:both;}
-.pianop {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+.pianop {background-image:linear-gradient(to top left, orchid, plum); font-size: 1.25vw; padding: 1vw} 
 @media screen and (max-width: 600px) {.pianop {font-size: 16px}}
 
 
 /*wind page*/
 .imgfour {width:100%}
 #wind {clear:both;}
-.windp {background-image:linear-gradient(to bottom left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+.windp {background-image:linear-gradient(to bottom left, orchid, plum); font-size: 1.25vw; padding: 1vw} 
 @media screen and (max-width: 600px) {.windp {font-size: 16px}}
 
 /*guitar page*/
 .imgfive {width:100%}
 #guitar {clear:both;}
-.guitarp {background-image:linear-gradient(to top left, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+.guitarp {background-image:linear-gradient(to top left, orchid, plum); font-size: 1.25vw; padding: 1vw} 
 @media screen and (max-width: 600px) {.guitarp {font-size: 16px}}
 
 
 /*ccv page*/
 .imgsix {width:100%}
+.imgeight {width: 48%; float: left; padding-right:2vw}
+.imgnine {width: 48%; float: right} 
 #ccv {clear:both;}
-.ccvp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+.ccvp {background-image:linear-gradient(to bottom right, orchid, plum); font-size: 1.25vw; padding: 1vw} 
 @media screen and (max-width: 600px) {.ccvp {font-size: 16px}}
 
 .imgseven {width: 100%}
 #roberts {clear:both;}
-.robertsp {background-image:linear-gradient(to bottom right, darkviolet, orchid); font-size: 1.25vw; padding: 1vw} 
+.robertsp {background-image:linear-gradient(to bottom right, orchid, plum); font-size: 1.25vw; padding: 1vw} 
 @media screen and (max-width: 600px) {.robertsp {font-size: 16px}}
 
-
-
-
-
-
-
-
-
-
-
-
-
+a.menulink {style:none;}
+a.menulink:link {color: darkviolet; text-decoration:none}
+a.menulink:visited {color: darkviolet}
+a.toplink {display:inline-block; style:none; border: solid 2px yellow; padding:3px; border-radius: 1.95vw; background-image: linear-gradient(to left, goldenrod, gold); opacity: .7; transition: transform .2s; }
+a.toplink:link {color: darkviolet; text-decoration:none}
+a.toplink:visited {color: darkviolet}
+a.toplink:hover {transform: scale(1.02);}
+a.introlink {display:inline-block; style:none; border: solid 1px yellow; border-radius: 1vw; background-image: linear-gradient(to left, goldenrod, gold); opacity: .7; transition: transform .2s; width:3.25vw; height:auto}
+a.introlink:link {color: darkviolet; text-decoration:none}
+a.introlink:visited {color: darkviolet}
+a.introlink:hover {transform: scale(1.02);}
